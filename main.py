@@ -12,4 +12,4 @@ async def on_ready():
 async def 핑(ctx):
     await ctx.send('퐁!')
 
-bot.run("YOUR_BOT_TOKEN")
+bot.run(os.getenv("TOKEN"))
